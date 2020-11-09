@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>realtime Chat App</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="centered-form">
+      <div class="centered-form__box">
+        <h1>join</h1>
+        <form action="/chat">
+          <label for="username">Display name</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Display name"
+            required
+            autocomplete="off"
+            autofocus
+          />
+          <label for="room">Room</label>
+          <input
+            type="text"
+            name="room"
+            id="room"
+            placeholder="Type room"
+            required
+            autocomplete="off"
+          />
+          <button type="submit">join</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
